@@ -55,7 +55,7 @@ but change that to whatever you specified earlier.
 Example: log4j.properties
 
 ```
-log4j.rundeck=INFO, SYSLOG
+log4j.logger.rundeck=INFO, SYSLOG
 # configure Syslog facility LOCAL1 appender
 log4j.appender.SYSLOG=org.apache.log4j.net.SyslogAppender
 log4j.appender.SYSLOG.threshold=WARN
